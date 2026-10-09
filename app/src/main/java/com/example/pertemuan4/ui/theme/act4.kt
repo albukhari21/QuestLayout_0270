@@ -83,26 +83,3 @@ fun ActivitasPertama(
                         modifier = Modifier.padding(top = 10.dp)
                     )
                 }
-            }
-        }
-        Box(
-            modifier = Modifier
-                .fillMaxSize()
-        ) {
-            Text(
-                text = stringResource(id = R.string.copy),
-                modifier = Modifier
-                    .align(Alignment.BottomCenter)
-                    .padding(bottom = 50.dp)
-            )
-        }
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun ActivitasPertamaPreview() {
-    Pertemuan4Theme {
-        ActivitasPertama()
-    }
-}
