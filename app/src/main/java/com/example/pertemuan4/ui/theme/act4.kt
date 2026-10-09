@@ -31,3 +31,11 @@ import com.example.pertemuan4.R
 fun ActivitasPertama(
     modifier: Modifier = Modifier
 ) {
+    Column(
+        modifier = modifier
+            .padding(top = 100.dp)
+            .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            text = stringResource(id = R.string.prodi),
