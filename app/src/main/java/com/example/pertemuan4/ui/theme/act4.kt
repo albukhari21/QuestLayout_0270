@@ -59,3 +59,5 @@ fun ActivitasPertama(
                 modifier = Modifier.padding(10.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
+                val gambar = painterResource(id = R.drawable.logo_umy)
+                
