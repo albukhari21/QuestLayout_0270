@@ -55,7 +55,7 @@ fun ActivitasPertama(
                 containerColor = Color.DarkGray
             )
         ) {
-
-
-
-
+            Row(
+                modifier = Modifier.padding(10.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
